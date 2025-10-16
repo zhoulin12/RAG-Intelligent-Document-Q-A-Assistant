@@ -81,7 +81,7 @@ pip install -r requirements.txt
    ZHIPU_API_KEY=your_zhipu_api_key_here
    ```
 
-3. 确认嵌入模型路径（已预设为您提供的路径）：
+3. 确认嵌入模型路径：
    ```
    EMBEDDING_MODEL_PATH=E:/kuakkkk/ai/models--BAAI--bge-large-zh-v1.5/snapshots/0cc67d9f159c4037e86efde28c42dadf6e3de7aa
    ```
@@ -234,4 +234,5 @@ A: 目前支持GLM-4、GLM-3-turbo等模型，可在 `.env` 文件中的 `LLM_MO
 - [智普AI](https://open.bigmodel.cn/) - 提供强大的大语言模型API
 - [BGE](https://github.com/FlagOpen/FlagEmbedding) - 优秀的中文嵌入模型
 - [LangChain](https://github.com/langchain-ai/langchain) - LLM应用开发框架
+
 - [ChromaDB](https://github.com/chroma-core/chroma) - 开源向量数据库
